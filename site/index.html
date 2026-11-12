@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>MuseAi-FED-NET — FedNet, under control</title><meta name="description" content="MuseAi-FED-NET operates the upstream connection, bounded watchdog, and closed-by-default FedNet sharing layer."><link rel="icon" href="assets/brand/fednet-mark.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css"></head><body><div class="cursor-glow"></div>
+<header class="topbar"><a class="brand" href="index.html"><img src="assets/brand/fednet-mark.svg" alt="FedNet shield symbol"><span><b data-site-title>MuseAi-FED-NET</b><small>FedNet operator</small></span></a><nav class="nav"><a href="pages/operator.html">Operator</a><a href="pages/watchdog.html">Watchdog</a><a href="pages/gateway.html">Gateway</a><a href="pages/about.html">About</a><a href="pages/support.html">Support</a></nav></header><div class="ticker" aria-label="MuseAi-FED-NET status ticker"><div class="ticker-track"><span><b>FED-NET ONLINE</b><i>✦</i> CLOSED BY DEFAULT</span><span>START • WATCHDOG • SHARE</span><span><b>POLICY BEFORE PLUMBING</b><i>✦</i> EXACT ACCESS ONLY</span><span>FED-NET ONLINE</span><span><b>FED-NET ONLINE</b><i>✦</i> CLOSED BY DEFAULT</span><span>START • WATCHDOG • SHARE</span><span><b>POLICY BEFORE PLUMBING</b><i>✦</i> EXACT ACCESS ONLY</span></div></div>
+<main class="site-shell"><section class="hero"><div class="reveal"><div class="eyebrow">The pipe is only the beginning</div><h1>FedNet, <span>under control.</span></h1><p>MuseAi-FED-NET brings the upstream connection up, proves it works, watches it, heals bounded failures, and keeps guest sharing closed until the policy says otherwise.</p><div class="actions"><a class="btn primary" href="pages/gateway.html">Explore the gateway →</a><a class="btn" href="pages/operator.html">See the operator</a></div></div><div class="hero-art reveal">
+  <div class="control-panel" aria-label="FED-NET connection control panel">
+    <div class="panel-topline"><span>FED-NET CONTROL</span><b><i></i> LIVE POLICY</b></div>
+    <div class="flow-grid">
+      <div class="flow-node flow-node--source"><span class="node-icon">USB</span><strong>ANDROID<br>UPSTREAM</strong><small>SOCKS5 :1080</small></div>
+      <div class="flow-line"><i></i><span>IPv4</span></div>
+      <div class="flow-node flow-node--operator"><span class="node-icon">WIN</span><strong>WINDOWS<br>OPERATOR</strong><small>WATCHDOG ACTIVE</small></div>
+      <div class="flow-line"><i></i><span>POLICY</span></div>
+      <div class="flow-node flow-node--gateway"><span class="node-icon">GATE</span><strong>FED-NET<br>GATEWAY</strong><small>PORT 0 / LOCKED</small></div>
+    </div>
+    <div class="policy-status"><span class="lock-mark">▣</span><div><small>SHARING STATUS</small><strong>CLOSED-BY-DEFAULT</strong></div><em>SAFE</em></div>
+    <div class="panel-metrics"><span><i></i> ALLOWLIST EMPTY</span><span><i></i> FORWARDING OFF</span><span><i></i> RATE LIMIT READY</span></div>
+  </div>
+  <div class="hero-sticker">NO RANDOM GUESTS<br><small>policy first</small></div>
+</div></section>
+<section class="section internet-section" id="internet-services">
+  <div class="section-head reveal"><div><div class="eyebrow">Internet access / practical guides</div><h2>Choose the pipe that fits the trip.</h2></div><p>FedNet is the control layer. Your carrier, hotspot, phone, or travel router supplies the connection underneath it.</p></div>
+  <div class="internet-grid">
+    <article class="internet-card reveal"><div class="internet-card__icon">▣</div><div><span class="tag">Mobile internet</span><h3>Phone hotspot</h3><p>Use your carrier’s Wi-Fi hotspot when you need to connect a laptop or another device without a cable. Carrier limits and plan terms still apply.</p></div><span class="internet-card__status">QUICK SETUP</span></article>
+    <article class="internet-card reveal"><div class="internet-card__icon">↔</div><div><span class="tag">USB tethering</span><h3>Stable phone-to-PC link</h3><p>USB tethering keeps the phone physically connected and is the upstream path this project is built to validate on Windows.</p></div><span class="internet-card__status">FED-NET PATH</span></article>
+    <article class="internet-card reveal"><div class="internet-card__icon">⌁</div><div><span class="tag">Travel connectivity</span><h3>Portable hotspot or router</h3><p>A dedicated hotspot or travel router can share a mobile plan with several devices. Keep its admin surface protected and treat guest access as a separate policy decision.</p></div><span class="internet-card__status">PLAN AHEAD</span></article>
+    <article class="internet-card reveal"><div class="internet-card__icon">◌</div><div><span class="tag">Network hygiene</span><h3>Monitor before you share</h3><p>Watch reachability, route selection, DNS behavior, and bandwidth before opening any service to another person or device.</p></div><span class="internet-card__status">WATCHDOG</span></article>
+  </div>
+  <div class="internet-note reveal"><strong>What FedNet adds:</strong><span>it does not sell mobile data or replace your ISP. It verifies the upstream path, provides bounded recovery, and keeps sharing closed until the policy is explicit.</span><a class="btn" href="pages/about.html">Read how it fits →</a></div>
+</section>
+<section class="section" id="visuals"><div class="section-head reveal"><div><div class="eyebrow">Five ways to think about it</div><h2>Comically serious networking.</h2></div><p>Detailed visuals for the parts that matter: control, recovery, admission, and fair use.</p></div><div class="gallery">
+<a class="promo-card reveal" href="pages/operator.html"><img src="assets/promos/operator.jpg" alt="Futuristic MuseAi-FED-NET operator control room"><div class="promo-copy"><span class="tag">01 / Operator</span><h3>Muse runs the room.</h3><p>Start the upstream pipe, verify reality, and keep the control plane honest.</p><span class="site-stamp" data-site-title>MuseAi-FED-NET</span> · <span class="site-stamp" data-site-url>https://museai-fed-net.pages.dev</span></div></a>
+<a class="promo-card reveal" href="pages/watchdog.html"><img src="assets/promos/watchdog.jpg" alt="Circuit watchdog robot repairing a network bridge"><div class="promo-copy"><span class="tag">02 / Watchdog</span><h3>Recovery, not chaos.</h3><p>Check, heal twice, report with a timestamp, and stop when the limit is reached.</p><span class="site-stamp" data-site-title>MuseAi-FED-NET</span> · <span class="site-stamp" data-site-url>https://museai-fed-net.pages.dev</span></div></a>
+<a class="promo-card reveal" href="pages/gateway.html"><img src="assets/promos/gateway.jpg" alt="Closed futuristic gateway with approved guest drone"><div class="promo-copy"><span class="tag">03 / Gateway</span><h3>Closed means closed.</h3><p>No open port, no accidental guests, no mysterious “temporary” exception.</p><span class="site-stamp" data-site-title>MuseAi-FED-NET</span> · <span class="site-stamp" data-site-url>https://museai-fed-net.pages.dev</span></div></a>
+<a class="promo-card reveal" href="pages/allowlist.html"><img src="assets/promos/allowlist.jpg" alt="Owl clerk checking exact guest identity cards"><div class="promo-copy"><span class="tag">04 / Allowlist</span><h3>Exact names. Exact access.</h3><p>If the identity is not listed, the answer is not a creative interpretation of “in.”</p><span class="site-stamp" data-site-title>MuseAi-FED-NET</span> · <span class="site-stamp" data-site-url>https://museai-fed-net.pages.dev</span></div></a>
+<a class="promo-card reveal" href="pages/bandwidth.html"><img src="assets/promos/bandwidth.jpg" alt="Fair bandwidth pipeline managed by a raccoon engineer"><div class="promo-copy"><span class="tag">05 / Bandwidth</span><h3>Fair shares, measured pipes.</h3><p>Per-guest caps and explicit bursts keep the policy visible and enforceable.</p><span class="site-stamp" data-site-title>MuseAi-FED-NET</span> · <span class="site-stamp" data-site-url>https://museai-fed-net.pages.dev</span></div></a>
+</div></section>
+<section class="section"><div class="feature-grid"><article class="feature reveal"><div class="icon">🛡</div><h3>Closed by default</h3><p>Port zero, empty allowlist, empty forwarding, zero bandwidth. The safe state is the starting state.</p></article><article class="feature reveal"><div class="icon">⏱</div><h3>Bounded healing</h3><p>The watchdog is helpful, not immortal. Two attempts, timestamped evidence, then a clean stop.</p></article><article class="feature reveal"><div class="icon">🎛</div><h3>Policy before plumbing</h3><p>The policy layer decides who and what may pass before any platform enforcement engine opens a socket.</p></article></div></section>
+<section class="discord-section reveal" id="discord">
+  <div class="discord-card">
+    <div class="eyebrow">Community / signal desk</div>
+    <h2>Join the FedNet room.</h2>
+    <p>Bring questions, logs, and the occasional packet joke. The Discord widget is centered on purpose.</p>
+    <div class="discord-frame"><iframe src="https://discord.com/widget?id=1400235929154879490&theme=dark" width="350" height="180" allowtransparency="true" frameborder="0" title="MuseAi-FED-NET Discord community" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe></div>
+
+    <div class="discord-servers" aria-labelledby="discordServersTitle">
+      <div class="eyebrow" id="discordServersTitle">Discord servers</div>
+      <div class="discord-button-stack">
+        <a class="discord-server-btn discord-server-btn--github" href="https://discord.com/invite/Jm4XStx4Pf" target="_blank" rel="noopener noreferrer">◈ <span>GitHub — Coding</span></a>
+        <a class="discord-server-btn discord-server-btn--museai" href="https://discord.com/invite/dPPdvYys2a" target="_blank" rel="noopener noreferrer">◈ <span>MuseAi — AI Agents</span></a>
+        <a class="discord-server-btn discord-server-btn--nsfw" href="#nsfwGate" id="nsfwDiscordBtn" aria-haspopup="dialog">◈ <span>Patreon</span><small>18+ NSFW</small></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<dialog id="nsfwGate" class="nsfw-dialog" aria-labelledby="nsfwGateTitle">
+  <form method="dialog" class="nsfw-dialog__content">
+    <h2 id="nsfwGateTitle">Age verification required</h2>
+    <p>This server may contain adult (18+ / NSFW) content. Confirm your age to receive the access-request instructions.</p>
+    <label class="nsfw-check"><input type="checkbox" id="nsfwAgeCheck"><span>I confirm that I am 18 years or older and consent to viewing adult content.</span></label>
+    <div class="nsfw-dialog__actions">
+      <button type="button" class="btn primary" id="nsfwConfirm" disabled>Continue</button>
+      <button type="button" class="btn" id="nsfwCancel">Cancel</button>
+    </div>
+    <div class="nsfw-email-request" id="nsfwEmailRequest" hidden>
+      <strong>Request access by email.</strong>
+      <p>We do not redirect you to the Discord invite. Email <a href="mailto:museai@fedpromptly.com?subject=NSFW%20Discord%20access%20request">museai@fedpromptly.com</a> after confirming your age to receive the access link.</p>
+      <a class="btn primary" href="mailto:museai@fedpromptly.com?subject=NSFW%20Discord%20access%20request">Email MuseAi</a>
+    </div>
+  </form>
+</dialog><section class="cta reveal"><h2>Make the network behave.</h2><p>Read the policy, inspect the implementation, and keep the upstream pipe in its proper place: useful, verified, and never confused with the gateway.</p><a class="btn primary" href="pages/about.html">Read the FED-NET brief →</a></section></main>
+<footer class="footer site-shell">
+  <div class="footer-orbit footer-orbit--one"></div><div class="footer-orbit footer-orbit--two"></div>
+  <div class="footer-shell">
+    <div class="footer-intro">
+      <div class="footer-copy">
+        <div class="eyebrow">FED-OS / open signal</div>
+        <h2>Keep the network <span>moving.</span></h2>
+        <p>Explore the ecosystem, support the work, and find the public channels that keep FedNet useful.</p>
+      </div>
+      <div class="footer-sponsor-wrap">
+        <div class="footer-label">Sponsor Git-FED</div>
+        <div class="gh-sponsor-card">
+          <iframe src="https://github.com/sponsors/Git-FED/card" title="Sponsor Git-FED" width="600" height="225" frameborder="0" scrolling="no" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <noscript><a href="https://github.com/sponsors/Git-FED">Sponsor Git-FED on GitHub</a></noscript>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-links" aria-label="FED-OS public links">
+      <section class="footer-group"><h3>FED-OS</h3><a class="footer-button" href="https://www.fedpromptly.org" target="_blank" rel="noopener noreferrer">Explore ecosystem <span>↗</span></a><a class="footer-button" href="https://www.fedpromptly.com/aid" target="_blank" rel="noopener noreferrer">Join membership <span>↗</span></a><a class="footer-button" href="https://www.jabburr.com/fed-os" target="_blank" rel="noopener noreferrer">Storefront <span>↗</span></a><a class="footer-button" href="https://whop.com/fedpromptly/" target="_blank" rel="noopener noreferrer">Whop <span>↗</span></a></section>
+      <section class="footer-group"><h3>Contact</h3><a class="footer-button" href="mailto:contact@fedpromptly.com">General <span>✉</span></a><a class="footer-button" href="mailto:support@fedpromptly.com">Support <span>✉</span></a><a class="footer-button" href="mailto:business@fedpromptly.com">Business <span>✉</span></a><a class="footer-button" href="mailto:careers@fedpromptly.com">Careers <span>✉</span></a></section>
+      <section class="footer-group"><h3>Media</h3><a class="footer-button" href="https://substack.com/@fedpromptly" target="_blank" rel="noopener noreferrer">Articles <span>↗</span></a><a class="footer-button" href="https://fedpromptly.wordpress.com/" target="_blank" rel="noopener noreferrer">Blog <span>↗</span></a><a class="footer-button" href="https://gitfed.substack.com/" target="_blank" rel="noopener noreferrer">GitFed blog <span>↗</span></a><a class="footer-button" href="https://www.deviantart.com/fedpromptly" target="_blank" rel="noopener noreferrer">Artwork <span>↗</span></a></section>
+      <section class="footer-group"><h3>Community</h3><a class="footer-button" href="https://discord.gg/Jm4XStx4Pf" target="_blank" rel="noopener noreferrer">Developers <span>↗</span></a><a class="footer-button" href="https://bsky.app/profile/fed-os.bsky.social" target="_blank" rel="noopener noreferrer">Bluesky <span>↗</span></a><a class="footer-button" href="https://x.com/Fedpromptly" target="_blank" rel="noopener noreferrer">Advertisement / X <span>↗</span></a><a class="footer-button" href="https://www.patreon.com/c/FEDpromptly" target="_blank" rel="noopener noreferrer">Supporters <span>↗</span></a><a class="footer-button" href="https://buymeacoffee.com/fedpromptly" target="_blank" rel="noopener noreferrer">Tips / donations <span>↗</span></a></section>
+    </div>
+
+    <div class="footer-bottom"><span>© <span data-year></span> MuseAi-FED-NET / FED-OS</span><span><a href="pages/about.html">Project brief</a> · <a href="pages/gateway.html">Share policy</a> · <a href="pages/operator.html">Operator</a></span></div>
+  </div>
+</footer><script src="site-config.js"></script><script src="site.js"></script></body></html>

@@ -1,0 +1,14 @@
+{
+  "bind_address": "127.0.0.1",
+  "bind_port": 0,
+  "allowlist": [],
+  "forwarding": [],
+  "bandwidth": {
+    "per_guest_kbps": 0,
+    "burst_kb": 0
+  },
+  "logging": {
+    "enabled": true,
+    "file": "fed-net.log"
+  }
+}
